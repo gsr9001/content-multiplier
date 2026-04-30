@@ -1,0 +1,18 @@
+{
+  "name": "content-multiplier",
+  "version": "1.0.0",
+  "description": "Transform a single article into LinkedIn posts, tweets, newsletters, and YouTube scripts",
+  "type": "module",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js",
+    "test": "node generate.js sample-article.md"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
